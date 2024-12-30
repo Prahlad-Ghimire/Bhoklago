@@ -2,3 +2,14 @@
 body{
     font-family: "Space Grotesk",sans-serif;
 }
+
+  .fresh::before {
+    content: '';
+    position: absolute;
+    border: 15px solid #dadad8a2;
+    border-radius: 10px;
+    width: 95%;
+    height: 100%;
+    top: -60px;
+    z-index: 1;
+  }
