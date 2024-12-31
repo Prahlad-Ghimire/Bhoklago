@@ -13,3 +13,8 @@ body{
     top: -60px;
     z-index: 1;
   }
+  @media (max-width:597px){
+    .fresh{
+      display: none !important;
+    }
+  }
