@@ -4,6 +4,7 @@ import '../styles/Bhoklago.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css"
+import Bhoklago from "../assets/Images/Bhoklago.png"
 function Home() {
     const [content, setContent] = useState({
         heading: "Quality Ingredients",
@@ -99,7 +100,7 @@ function Home() {
                         <div className="fresh position-relative w-100">
                             <img src="https://img.freepik.com/free-photo/crispy-mix-pizza-with-sausage_140725-2281.jpg?t=st=1735575595~exp=1735579195~hmac=453b230443e512e31c00c3a45b0b45f81938c02dcba573e6b7f9d142614564f8&w=740" className="z-2 shadow position-relative rounded-3 pe-0" alt="" style={{ height: 600 }} />
                             <div className="position-absolute z-2 bg-light border-5 rounded-2 shadow" style={{ bottom: 55, right: -10 }}>
-                                <img src="https://img.freepik.com/free-photo/front-view-woman-with-delicious-pizza_23-2150347910.jpg?t=st=1735577558~exp=1735581158~hmac=b2ae2b1c0b0c8856883b73be06abc6a782fead568c458c0dd971d21dac67aa5b&w=996" alt="" className="p-2" style={{ width: 200, height: 200 }} />
+                                <img src={Bhoklago} alt="" className="p-2" style={{ width: 200, height: 200 }} />
                             </div>
                         </div>
                     </div>
