@@ -59,3 +59,43 @@ body{
   color: black !important;
   transition: 1s all !important;
 }
+.loginform:focus{
+  border: 1px solid green !important;
+  box-shadow: none !important;
+  transition: 0.5s all !important;
+}
+.Registerform:focus{
+  border: 1px solid green !important;
+  box-shadow: none !important;
+  transition: 0.5s all !important;
+}
+.animation-button{
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+.animation-button::before,
+.animation-button::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #543A14;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+.animation-button::before {
+  top: 0;
+  transform-origin: right;
+}
+
+.animation-button::after {
+  bottom: 0;
+  transform-origin: left;
+}
+
+.animation-button:hover::before,
+.animation-button:hover::after {
+  transform: scaleX(1);
+}

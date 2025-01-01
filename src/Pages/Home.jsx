@@ -109,9 +109,9 @@ function Home() {
                             <h2 className="fs-1 text-capitalize">Fresh Home food <strong>delivered at your</strong> Door Step</h2>
                             <p className="fs-5 mt-4" style={{ textAlign: "justify" }}>At Bhoklago, we make enjoying delicious, wholesome meals effortless. With just a few clicks, you can have home-style food delivered straight to your door, made from the freshest ingredients and authentic recipes.</p>
                             <div className="grp-button d-flex justify-content-between">
-                                <button className="btn border-0 fw-bold fs-5" onClick={() => handleClick("mission")}>Our Mission</button>
-                                <button className="btn border-0 fw-bold fs-5" onClick={() => handleClick("vision")}>Our Vision</button>
-                                <button className="btn border-0 fw-bold fs-5" onClick={() => handleClick("value")}>Our Value</button>
+                                <button className="btn border-0 fw-bold fs-5 animation-button" onClick={() => handleClick("mission")}>Our Mission</button>
+                                <button className="btn border-0 fw-bold fs-5 animation-button" onClick={() => handleClick("vision")}>Our Vision</button>
+                                <button className="btn border-0 fw-bold fs-5 animation-button" onClick={() => handleClick("value")}>Our Value</button>
                             </div>
                             {content.image &&
                                 <div className="row mt-5">
@@ -132,6 +132,21 @@ function Home() {
                                     </div>
                                 </div>
                             }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-lg-12 px-0">
+                        <div className="position-relative">
+                            <img src="https://img.freepik.com/free-photo/top-view-cooked-tasty-squashes-with-seasonings-bread-loafs-dark-purple-desk_140725-50075.jpg?t=st=1735744069~exp=1735747669~hmac=977339546487e3db9de485d23bc573cde49c145f0a78603e5e4ccfcaab50b433&w=996" alt="" className="w-100" style={{height:700}} />
+                            <div className="position-absolute w-100 top-0 opacity-50">
+                                <img src="https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30461.jpg?t=st=1735568824~exp=1735572424~hmac=36549b9354bccb90f01c459a9a09fe7fbea68844002ad804e391ede17dd2fac3&w=740" alt="" className="w-100" style={{height:700}} />
+                            </div>
+                            <div className="position-absolute top-50 text-white">
+                                <p>At BhokLago, we specialize in delivering exceptional dining experiences by bringing meals from your favorite restaurants directly to your home, office, or any location of your choice.We recognize that time is a valuable resource, and every moment counts. That’s why we are committed to providing a fast, seamless, and reliable delivery service, allowing you to focus on what truly matters while we handle your culinary needs.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
