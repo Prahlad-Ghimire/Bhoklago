@@ -186,8 +186,8 @@ function Home() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <div className="d-flex justify-content-center align-items-center" style={{height:800}}>
-                            <img src={foodbg} className="w-100" alt="" style={{ height: 600}} />
+                        <div className="d-flex justify-content-center align-items-center" style={{height:700}}>
+                            <img src={foodbg} className="rounded-2" alt="" style={{width:500, height: 600}} />
                         </div>
                     </div>
                     <div className="col-lg-6">
