@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css"
 import Bhoklago from "../assets/Images/Bhoklago.png"
+import foodbg from "../assets/Images/foodbg.png";
 function Home() {
     const [content, setContent] = useState({
         heading: "Quality Ingredients",
@@ -169,13 +170,13 @@ function Home() {
                             <div className="col-lg-6">
                                 <div className="h-100 d-flex align-items-center mt-0 mt-lg-5 position-relative">
                                     <img src="https://img.freepik.com/free-photo/georgian-eggplant-roulettes-table_140725-9215.jpg?t=st=1735925307~exp=1735928907~hmac=b5ef6a0b5c70abd9603ae945aea74e8b9b2d34eb4b540e767534ce0d06923bb9&w=360" alt="" className="w-100 rounded-3 img-thumbnail object-fit-cover mb-2" style={{ height: 450 }} />
-                                    <img src="https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30461.jpg?t=st=1735568824~exp=1735572424~hmac=36549b9354bccb90f01c459a9a09fe7fbea68844002ad804e391ede17dd2fac3&w=740" alt="" className="position-absolute rounded-3  mb-2 object-fit-cover opacity-25 w-100" style={{height:450}}/>
+                                    <img src="https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30461.jpg?t=st=1735568824~exp=1735572424~hmac=36549b9354bccb90f01c459a9a09fe7fbea68844002ad804e391ede17dd2fac3&w=740" alt="" className="position-absolute rounded-3  mb-2 object-fit-cover opacity-25 w-100" style={{ height: 450 }} />
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="h-100 d-flex align-items-center mt-0 mt-lg-5 position-relative">
-                                    <img src="https://img.freepik.com/free-photo/side-lamb-ragout-with-fried-onion-carrot-tomato-sauce-greens-vegetable-salad-table_141793-4744.jpg?t=st=1736056495~exp=1736060095~hmac=106a8cef6399a43ab176c90c7463976f49ea5aeb67a3672712a450d0e73f7775&w=996" alt="" className="w-100 rounded-circle  mb-2 object-fit-cover" style={{ height: 450, border:"5px solid #9AA6B2" }} />
-                                    <img src="https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30461.jpg?t=st=1735568824~exp=1735572424~hmac=36549b9354bccb90f01c459a9a09fe7fbea68844002ad804e391ede17dd2fac3&w=740" alt="" className="position-absolute rounded-circle  mb-2 object-fit-cover opacity-50 w-100" style={{height:450}}/>
+                                    <img src="https://img.freepik.com/free-photo/side-lamb-ragout-with-fried-onion-carrot-tomato-sauce-greens-vegetable-salad-table_141793-4744.jpg?t=st=1736056495~exp=1736060095~hmac=106a8cef6399a43ab176c90c7463976f49ea5aeb67a3672712a450d0e73f7775&w=996" alt="" className="w-100 rounded-circle  mb-2 object-fit-cover" style={{ height: 450, border: "5px solid #9AA6B2" }} />
+                                    <img src="https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30461.jpg?t=st=1735568824~exp=1735572424~hmac=36549b9354bccb90f01c459a9a09fe7fbea68844002ad804e391ede17dd2fac3&w=740" alt="" className="position-absolute rounded-circle  mb-2 object-fit-cover opacity-50 w-100" style={{ height: 450 }} />
                                 </div>
                             </div>
                         </div>
@@ -185,7 +186,48 @@ function Home() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        
+                        <div className="d-flex justify-content-center align-items-center" style={{height:800}}>
+                            <img src={foodbg} className="w-100" alt="" style={{ height: 600}} />
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <div>
+                            <h2 className="mt-lg-5 mt-2">Easy Order in 3 Steps</h2>
+                        </div>
+                        <div className="d-flex rotating align-items-center mt-lg-5 mt-3 gap-3">
+                            <div className="steps">
+                                <img src="https://img.freepik.com/free-photo/people-creating-food-content-upload-internet-food-lovers_23-2151461646.jpg?t=st=1736120991~exp=1736124591~hmac=35a1758a0cf794eb629bb8926752ceffdadfeb317ff59a2fb5b05f0e45b323c3&w=996" alt="" className="rounded-circle border border-5 border-primary object-fit-cover" style={{ width: 150, height: 150 }} />
+                            </div>
+                            <div>
+                                <p className="fw-bold fs-4 mb-1">Explore Restaurants</p>
+                                <p className="mb-0 text-capitalize" style={{ textAlign: "justify" }}>Discover a variety of restaurants near you offering delicious cuisines.</p>
+                            </div>
+                        </div>
+                        <div className="d-flex rotating align-items-center mt-lg-5 mt-3 gap-3">
+                            <div className="steps">
+                                <img src="https://img.freepik.com/free-photo/front-view-delicious-food-arrangement_23-2148510936.jpg?t=st=1736122628~exp=1736126228~hmac=670fe41b479e786bff0aec151c144dcccd01f532fefd5e69dd698aee5fbafb74&w=996" alt="" className="rounded-circle border border-5 border-primary object-fit-cover" style={{ width: 150, height: 150 }} />
+                            </div>
+                            <div>
+                                <p className="fw-bold fs-4 mb-1">Choose a Tasty Dish</p>
+                                <p className="mb-0 text-capitalize" style={{ textAlign: "justify" }}> Pick your favorite meal from a wide selection of flavorful dishes.</p>
+                            </div>
+                        </div>
+                        <div className="d-flex rotating align-items-center mt-lg-5 mt-3 gap-3">
+                            <div className="steps">
+                                <img src="https://img.freepik.com/free-photo/close-up-hand-taking-photo-with-phone_23-2149250069.jpg?t=st=1736123280~exp=1736126880~hmac=4fc86da2f9855cd538e5f80680ef4e880acf5b9a503835bc226d2964e471828d&w=360" alt="" className="rounded-circle border border-5 border-primary object-fit-cover" style={{ width: 150, height: 150 }} />
+                            </div>
+                            <div>
+                                <p className="fw-bold fs-4 mb-1">Follow the Status</p>
+                                <p className="mb-0 text-capitalize" style={{ textAlign: "justify" }}> Track your order in real time, from preparation to delivery.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid bg-secondary">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <p>dhdbfkabdbfbfh</p>
                     </div>
                 </div>
             </div>
