@@ -4,6 +4,7 @@ import '../styles/Bhoklago.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css"
+import { Link } from "react-router-dom";
 import Bhoklago from "../assets/Images/Bhoklago.png"
 import foodbg from "../assets/Images/foodbg.png";
 function Home() {
@@ -186,11 +187,11 @@ function Home() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <div className="d-flex justify-content-center align-items-center" style={{height:700}}>
-                            <img src={foodbg} className="rounded-2" alt="" style={{width:500, height: 600}} />
+                        <div className="d-flex justify-content-center align-items-center" style={{ height: 700 }}>
+                            <img src={foodbg} className="rounded-2" alt="" style={{ width: 300, height: 300 }} />
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 mb-4">
                         <div>
                             <h2 className="mt-lg-5 mt-2">Easy Order in 3 Steps</h2>
                         </div>
@@ -224,10 +225,22 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid bg-secondary">
+            <div className="container-fluid slate">
                 <div className="row">
-                    <div className="col-lg-12">
-                        <p>dhdbfkabdbfbfh</p>
+                    <div className="col-lg-4">
+                        <div className="pt-5 px-4">
+                            <p className="text-white fs-4 fw-bold">We're <strong className="text-danger">भोकलाग्यो !</strong></p>
+                            <div>
+                                <ul>
+                                    <li className="py-2">
+                                        <Link className="text-white text-decoration-none fs-5">About Us</Link>
+                                    </li>
+                                    <li className="py-2">
+                                        <Link className="text-white text-decoration-none fs-5">Blog</Link>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
