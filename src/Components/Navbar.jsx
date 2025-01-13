@@ -30,7 +30,9 @@ function Navbar() {
                         <div className="col-lg-12">
                             <div className="py-3 d-flex justify-content-between">
                                 <img src={Bhoklago2} alt="" className="rounded-circle" style={{ width: 120, height: 50 }} />
-                                <button onClick={openLoginModal} className="btn text-white animated-button border-0 text-uppercase">Login</button>
+                                <button onClick={openLoginModal} className="btn text-white animated-button border-0 text-uppercase">
+                                    <span className="loginbutton position-relative d-flex justify-content-center align-items-center">Login</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -73,7 +75,7 @@ function Navbar() {
                                                         <button className="btn btn-primary w-100">Facebook</button>
                                                     </div>
                                                     <div className="col-lg-6 mt-2 mt-lg-0">
-                                                    <button className="btn btn-danger w-100">Google</button>
+                                                        <button className="btn btn-danger w-100">Google</button>
                                                     </div>
                                                 </div>
                                                 <div className="mt-4 text-center d-flex align-items-center justify-content-center">
@@ -143,7 +145,7 @@ function Navbar() {
                                                         <button className="btn btn-primary w-100">Facebook</button>
                                                     </div>
                                                     <div className="col-lg-6 mt-2 mt-lg-0">
-                                                    <button className="btn btn-danger w-100">Google</button>
+                                                        <button className="btn btn-danger w-100">Google</button>
                                                     </div>
                                                 </div>
                                                 <div className="mt-4 text-center d-flex align-items-center justify-content-center">
