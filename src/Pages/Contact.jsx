@@ -4,10 +4,10 @@ import '../styles/Bhoklago.css';
 function Contact() {
     return (
         <div>
-            <div className="container">
+            <div className="container mt-5 mb-3">
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="mb-5 mt-4">
+                        <div className="mb-5 mt-5">
                             <p className="text-center fs-1 fw-bold">Contact Us</p>
                         </div>
                     </div>
