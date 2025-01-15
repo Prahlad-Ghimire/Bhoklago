@@ -1,15 +1,15 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
-import Navbar from "./Components/Navbar";
+import Contact from "./Pages/Contact";
+import Clear from "./Clear";
 
 
 function App() {
   return (
     <div>
-      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Clear />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   )
