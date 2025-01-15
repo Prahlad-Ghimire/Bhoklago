@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Bhoklago.css";
 import { Link } from "react-router-dom";
-import Contact from "../Pages/Contact";
+
 
 function Footer() {
     return (
@@ -35,7 +35,10 @@ function Footer() {
                                         <Link className="text-white text-decoration-none fs-5">FAQs</Link>
                                     </li>
                                     <li className="py-2">
-                                        <Link className="text-white text-decoration-none fs-5" to="/contact">Contact Us</Link>
+                                        <Link className="text-white text-decoration-none fs-5" to="/">Home</Link>
+                                    </li>
+                                    <li className="py-2">
+                                        <Link className="text-white text-decoration-none fs-5" to="/contacting">Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>

@@ -125,3 +125,84 @@ body{
     margin-top: 130px !important;
   }
 }
+.contactsection{
+  transition: transform 0.5s ease;
+}
+.contacticons{
+  animation: none;
+}
+.contactsection:hover .contacticons{
+  animation: rotating 0.5s ease-in-out;
+}
+@keyframes rotating{
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(360deg);
+  }
+}
+.fs-10{
+  font-size: 14px;
+}
+.form{
+  background-color: #212529;
+  border-radius: 25px;
+  transition: .4s ease-in-out;
+  box-shadow: 10px 20px 20px #626262;
+  padding: 2.5em;
+  height: 100%;
+  width: 100%;
+}
+.form:hover{
+  transform: translateX(-0.5em) translateY(-0.5em);
+  border: 1px solid #171717;
+  box-shadow: 10px 10px 0px #666666;
+}
+.filling input{
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  outline: none;
+  padding: 0.7em;
+  transition: .4s ease-in-out;
+}
+.filling input:hover {
+  box-shadow: 6px 6px 0px #666666,
+             -3px -3px 10px #666666;
+}
+.filling input:focus {
+  background: #ffffff;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+}
+.filling .submitting{
+  border-radius: 10px;
+  transition: .4s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
+.filling .submitting:hover{
+  box-shadow: 6px 6px 0px #666666,
+             -3px -3px 10px #666666;
+  transform: translateX(-0.5em) translateY(-0.5em);
+}
+.filling .submitting:active{
+  transition: .2s;
+  transform: translateX(0em) translateY(0em);
+  box-shadow: none;
+}
+.filling textarea{
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  outline: none;
+  padding: 0.7em;
+  transition: .4s ease-in-out;
+}
+.filling textarea:hover {
+  box-shadow: 6px 6px 0px #666666,
+             -3px -3px 10px #666666;
+}
+.filling textarea:focus {
+  background: #ffffff;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+}

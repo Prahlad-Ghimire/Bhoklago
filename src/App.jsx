@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Contact from "./Pages/Contact";
 import Clear from "./Clear";
+import Contacting from "./Contacting";
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Clear />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contacting" element={<Contacting />} />
       </Routes>
     </div>
   )
