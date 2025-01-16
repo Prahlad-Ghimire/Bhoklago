@@ -223,7 +223,7 @@ body{
   transition: transform 1s;
 }
 .restaurant:hover .frontface{
-  transform: rotateY(-85deg);
+  transform: rotateY(-83deg);
 }
 .frontface img{
   border-radius: 10px !important;
