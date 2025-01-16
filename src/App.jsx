@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Clear from "./Clear";
 import Contacting from "./Contacting";
+import AfterLoginPage from "./Pages/AfterLoginPage";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Clear />} />
         <Route path="/contacting" element={<Contacting />} />
+        <Route path="/afterloginpage" element={<AfterLoginPage />} />
       </Routes>
     </div>
   )

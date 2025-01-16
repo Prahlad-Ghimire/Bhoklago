@@ -206,3 +206,35 @@ body{
   background: #ffffff;
   box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
 }
+.restaurant{
+  border-radius: 10px;
+  perspective: 2000px;
+  box-shadow: 1px 1px 12px #212529;
+  height: 400px;
+  width: 300px;
+  background-color: #212529;
+}
+.frontface{
+  height: 400px !important;
+  background-color: lightcoral;
+  border-radius: 10px;
+  box-shadow: 1px 1px 12px #666666;
+  transform-origin:left ;
+  transition: transform 1s;
+}
+.restaurant:hover .frontface{
+  transform: rotateY(-85deg);
+}
+.frontface img{
+  border-radius: 10px !important;
+}
+.restaurant  .restauranthead{
+  letter-spacing: 4px;
+}
+.restaurant .details{
+  height: 300px !important;
+  width: 300px !important;
+}
+.details .restaurantdetail{
+  font-size: 12px;
+}
