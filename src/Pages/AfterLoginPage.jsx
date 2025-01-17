@@ -6,8 +6,17 @@ const AfterLoginPage = () => {
         <div>
             <div className="container">
                 <div className="row">
+                    <div className="col-lg-12">
+                        <div className='mt-4'>
+                        <p className='text-uppercase mb-0 fw-bold fs-3'>featured restaurants</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container">
+                <div className="row">
                     <div className="col-lg-4">
-                        <div className='w-100 d-flex justify-content-center mt-5'>
+                        <div className='w-100 d-flex justify-content-center mt-4'>
                             <Link to="" className="restaurant position-relative d-flex justify-content-center align-items-center">
                                 <div className='details position-absolute px-4'>
                                     <p className='text-white restauranthead fw-bold text-uppercase'>Sandar Momo</p>
@@ -19,11 +28,11 @@ const AfterLoginPage = () => {
                             </Link>
                         </div>
                         <div className='d-flex justify-content-center mt-3 w-100'>
-                            <p className='text-uppercase fw-bold fs-5 mb-0'>Sandar Momo, New-Baneshwor</p>
+                            <p className='text-uppercase fw-bold fs-5 mb-2'>Sandar Momo, New-Baneshwor</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div className='w-100 d-flex justify-content-center mt-5'>
+                        <div className='w-100 d-flex justify-content-center mt-4'>
                             <Link to="" className="restaurant position-relative d-flex justify-content-center align-items-center">
                                 <div className='details position-absolute px-4'>
                                     <p className='text-white restauranthead fw-bold text-uppercase'>Bricks Cafe</p>
@@ -35,11 +44,11 @@ const AfterLoginPage = () => {
                             </Link>
                         </div>
                         <div className='d-flex justify-content-center mt-3 w-100'>
-                            <p className='text-uppercase fw-bold fs-5 mb-0'>Bricks Cafe, Thamel</p>
+                            <p className='text-uppercase fw-bold fs-5 mb-2'>Bricks Cafe, Thamel</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div className='w-100 d-flex justify-content-center mt-5'>
+                        <div className='w-100 d-flex justify-content-center mt-4'>
                             <Link to="" className="restaurant position-relative d-flex justify-content-center align-items-center">
                                 <div className='details position-absolute px-4'>
                                     <p className='text-white restauranthead fw-bold text-uppercase'>Mustang Thakali</p>
@@ -51,11 +60,11 @@ const AfterLoginPage = () => {
                             </Link>
                         </div>
                         <div className='d-flex justify-content-center mt-3 w-100'>
-                            <p className='text-uppercase fw-bold fs-5 mb-0'>Mustang Thakali, Tinkune</p>
+                            <p className='text-uppercase fw-bold fs-5 mb-2'>Mustang Thakali, Tinkune</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div className='w-100 d-flex justify-content-center mt-5'>
+                        <div className='w-100 d-flex justify-content-center mt-4'>
                             <Link to="" className="restaurant position-relative d-flex justify-content-center align-items-center">
                                 <div className='details position-absolute px-4'>
                                     <p className='text-white restauranthead fw-bold text-uppercase'>Chicken Hub</p>
@@ -67,11 +76,11 @@ const AfterLoginPage = () => {
                             </Link>
                         </div>
                         <div className='d-flex justify-content-center mt-3 w-100'>
-                            <p className='text-uppercase fw-bold fs-5 mb-0'>Chicken hub, Balkot</p>
+                            <p className='text-uppercase fw-bold fs-5 mb-2'>Chicken hub, Balkot</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div className='w-100 d-flex justify-content-center mt-5'>
+                        <div className='w-100 d-flex justify-content-center mt-4'>
                             <Link to="" className="restaurant position-relative d-flex justify-content-center align-items-center">
                                 <div className='details position-absolute px-4'>
                                     <p className='text-white restauranthead fw-bold text-uppercase'>Kruchy Fried Chicken (kfc)</p>
@@ -83,11 +92,11 @@ const AfterLoginPage = () => {
                             </Link>
                         </div>
                         <div className='d-flex justify-content-center mt-3 w-100'>
-                            <p className='text-uppercase fw-bold fs-5 mb-0'>KFC, Radhe Radhe</p>
+                            <p className='text-uppercase fw-bold fs-5 mb-2'>KFC, Radhe Radhe</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div className='w-100 d-flex justify-content-center mt-5'>
+                        <div className='w-100 d-flex justify-content-center mt-4'>
                             <Link to="" className="restaurant position-relative d-flex justify-content-center align-items-center">
                                 <div className='details position-absolute px-4'>
                                     <p className='text-white restauranthead fw-bold text-uppercase'>Bhakka House</p>
@@ -99,7 +108,7 @@ const AfterLoginPage = () => {
                             </Link>
                         </div>
                         <div className='d-flex justify-content-center mt-3 w-100'>
-                            <p className='text-uppercase fw-bold fs-5 mb-0'>Bhakka House, Mid-Baneshwor</p>
+                            <p className='text-uppercase fw-bold fs-5 mb-2'>Bhakka House, Mid-Baneshwor</p>
                         </div>
                     </div>
                 </div>

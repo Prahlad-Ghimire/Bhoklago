@@ -1,6 +1,7 @@
 import React from 'react'
 import Bhoklago2 from "../assets/Images/Bhoklago2.png"
 import { Link } from 'react-router-dom'
+import '../styles/Bhoklago.css'
 
 const Afterloginnavbar = () => {
     return (

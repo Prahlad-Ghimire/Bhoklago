@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import Bhoklago from '../assets/Images/Bhoklago.png'
+import '../styles/Bhoklago.css'
 
 const SecondPage = () => {
     const [content, setContent] = useState({

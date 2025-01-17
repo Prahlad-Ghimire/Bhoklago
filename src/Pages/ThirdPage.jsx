@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Bhoklago.css'
 
 const ThirdPage = () => {
   return (

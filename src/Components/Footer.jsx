@@ -63,6 +63,16 @@ function Footer() {
                             </div>
                         </div>
                     </div>
+                    <div className="col-lg-12">
+                        <div className="mb-3">
+                            <p className="text-white px-4"><strong className="text-capitalize">service hour:</strong> 07:00 AM to 10:00 PM</p>
+                        </div>
+                        <div className="border border-bottom border-2 mt-3 mb-4"></div>
+                        <div className="px-4 text-white text-capitalize d-flex justify-content-between">
+                            <p className="">terms of usage | privacy policy</p>
+                            <p className="px-4">&copy; 2025 भोकलाग्यो ! pvt. ltd | prahlad ghimire</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

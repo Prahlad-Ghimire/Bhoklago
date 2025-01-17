@@ -1,5 +1,6 @@
 import React from 'react'
 import foodbg from '../assets/Images/foodbg.png'
+import '../styles/Bhoklago.css'
 
 const FourthPage = () => {
   return (
