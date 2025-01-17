@@ -41,7 +41,7 @@ function Footer() {
                                         <Link className="text-white text-decoration-none fs-5" to="/contacting">Contact Us</Link>
                                     </li>
                                     <li className="py-2">
-                                        <Link className="text-white text-decoration-none fs-5" to="/afterloginpage">AfterLogin</Link>
+                                        <Link className="text-white text-decoration-none fs-5" to="/loginsuccess">LoginSuccess</Link>
                                     </li>
                                 </ul>
                             </div>
